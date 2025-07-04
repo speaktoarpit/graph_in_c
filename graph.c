@@ -65,7 +65,7 @@ void print_graph(const Graph* g) {
             printf(" %d", current->dst->id);
             current = current->next;
         }
-        printf("\n");
+        printf(" \n");  // Add space before newline
     }
 }
 
